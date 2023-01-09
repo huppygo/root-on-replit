@@ -2,17 +2,21 @@
 > 6条命令行依次输入
 ```bash
 wget https://cdn.discordapp.com/attachments/853535040250970113/878590395611775016/yt.zip
-
+```
+```bash
 unzip yt.zip && rm yt.zip
-
+```
+```bash
 unzip root.zip && rm root.zip
-
+```
+```bash
 tar -xvf root.tar.xz && rm root.tar.xz
-
+```
+```bash
 ./dist/proot -S . /bin/bash
-
+```
+```bash
 su
-
 ```
 
 ## 拓展命令行：
